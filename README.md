@@ -1,4 +1,4 @@
-# chrep
+# Transformers
 In this project I applied three transformers (BERT,RoBERTa,Naive Bayes) on dataset I found
 from KAGGLE (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset). The code follows these rules.
 1.Data preparation (tokenization, vectorization, etc.)
