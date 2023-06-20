@@ -167,10 +167,10 @@ print(f"Naive Bayes Accuracy: {accuracy_nb}")
 # Convert predicted_labels_roberta_series to a Pandas DataFrame
 df_predicted_roberta = pd.DataFrame({'Label': predicted_labels_roberta_series})
 
-# Plot the bar chart for RoBERTa
+# Plot the bar chart for Naive Bayes
 plt.figure(figsize=(8, 6))
 sns.countplot(data=df_predicted_roberta, x='Label')
-plt.title('RoBERTa Predicted Labels Distribution')
+plt.title('Naive Bayes Predicted Labels Distribution')
 plt.xlabel('Label')
 plt.ylabel('Count')
 plt.show()
